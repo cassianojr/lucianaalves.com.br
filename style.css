@@ -85,7 +85,7 @@ body{
 
 .content-cta{
     width: 100%;
-    height: 450px;
+    height: 350px;
 
     /* height: 75vh; */
     border-top: 12px solid #dfcc94;
@@ -163,7 +163,7 @@ body{
 /* footer */
 footer{
     padding: 2.2rem;
-    border-top: 10px solid #dfcc94;
+    /* border-top: 10px solid #dfcc94; */
 }
 footer p{
     margin: 0;
@@ -220,26 +220,27 @@ footer p{
 
 
 .btn-cta {
-    width: 80%;
+    width: 50%;
     display: block;
-    background-color: green;
-    color: white;
+    background-color: #dfcc94;
+    color: black;
     font-size: 1.4rem;
     margin: auto;
     /* font-weight: bold; */
     margin-top: 3%;
+    margin-bottom: 3%;
     text-align: center;
-    border-radius: 10rem;
     text-decoration: none;
     padding: .6rem;
     transition: background 0.3s;
     /* border: 3px solid #DE929F; */
 }
 
-.btn-cta:hover {
+/*.btn-cta:hover {
     /* background-color: transparent;
-    border: 3px solid #dfcc94; */
+    border: 3px solid #dfcc94;
 }
+*/
 
 
 /* Small screens */
@@ -278,10 +279,23 @@ footer p{
     .content .title,
     .content .text{
         font-size: 1rem;
-
     }
 
+    .showcase{
+        height: 50vh;
+
+    }
     .content{
         top: 0;
+    }
+}
+
+@media(max-height: 700px){
+    .showcase{
+        height: 50vh;
+    }
+
+    iframe{
+        max-width: 100%;
     }
 }
