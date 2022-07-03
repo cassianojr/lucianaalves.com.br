@@ -18,7 +18,7 @@ body {
     display: block;
     filter: blur(10px);
     -webkit-filter: blur(15px);
-    transition: all 1000ms;
+    /* transition: all 1000ms; */
 }
 
 
@@ -247,7 +247,7 @@ footer p {
 /* Small screens */
 @media(max-width: 560px) {
     .showcase::after {
-        height: 30vh;
+        height: 35vh;
     }
 
     .content {
@@ -274,6 +274,9 @@ footer p {
         border-bottom: #333 dashed 1px;
         padding: 1.2rem 1rem;
     }
+    iframe {
+        max-width: 100%;
+    }
 }
 
 /* Landscape */
@@ -281,6 +284,9 @@ footer p {
     .content {
         top: 5%;
         margin-top: 20px;
+    }
+    .showcase::after {
+        height: 30vh;
     }
 
     .content .title,
@@ -299,11 +305,17 @@ footer p {
     .content {
         top: 0;
     }
+    iframe {
+        max-width: 100%;
+    }
 }
 
-@media(max-height: 700px) {
+@media(max-height: 800px) {
     .showcase {
         height: 50vh;
+    }
+    .content {
+        height: 60vh;
     }
 
     iframe {
