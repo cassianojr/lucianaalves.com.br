@@ -1,0 +1,44 @@
+.home-section{
+    background-image: url('../images/bg_1.jpg');
+}
+
+.content{
+    margin-bottom: 5vh;
+}
+
+.img-about {
+    height: 340px;
+    width: 340px;
+    border-radius: 10%;
+}
+
+
+.justify {
+    text-align: justify !important;
+}
+
+.font-logo {
+    font-family: 'Philosopher', sans-serif !important;
+}
+
+.btn-fixed-bottom{
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.content > .hr {
+    width: 90%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(223, 204, 148), rgba(0, 0, 0, 0));
+}
+
+.content > .text > p{
+    line-height: .5rem;
+    font-size: 1.8rem;
+    letter-spacing: .6rem;
+    color: #fff;
+
+}
