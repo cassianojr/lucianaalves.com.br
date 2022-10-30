@@ -4602,6 +4602,10 @@ a.close.disabled {
   overflow: hidden;
   outline: 0; }
 
+  .font-normal{
+    font-size: 1.3rem ;
+  }
+
 .modal-dialog {
   position: relative;
   width: auto;
@@ -8763,6 +8767,12 @@ textarea.form-control {
   font-size: 40px;
   color: #fff;
   color: #eac15a; }
+
+  .heading-section.heading-section-white h3 {
+    font-size: 35px;
+    color: #fff;
+    color: #eac15a; }
+  
 
 .heading-section.heading-section-white p {
   color: rgba(255, 255, 255, 0.9); }
