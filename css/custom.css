@@ -50,3 +50,7 @@
 .collapse > .card-body{
     text-align: justify;
 }
+
+.card-header > h5 > button{
+    text-align: left;
+}
