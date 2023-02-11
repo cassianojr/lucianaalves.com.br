@@ -40,5 +40,13 @@
     font-size: 1.8rem;
     letter-spacing: .6rem;
     color: #fff;
+}
 
+.btn-faq{
+    color:#eac15a !important;
+    font-size: 1.3rem;
+}
+
+.collapse > .card-body{
+    text-align: justify;
 }
